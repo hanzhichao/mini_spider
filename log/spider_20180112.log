@@ -1,0 +1,949 @@
+2018-01-12 20:52:45,303 - mini_spider.py[line:23] - DEBUG: max depth: 1
+2018-01-12 20:52:45,305 - mini_spider.py[line:27] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 20:52:45,305 - mini_spider.py[line:29] - DEBUG: current depth: 0
+2018-01-12 20:52:45,305 - mini_spider.py[line:30] - DEBUG: current queue size: 1
+2018-01-12 21:06:10,854 - mini_spider.py[line:24] - DEBUG: max depth: 1
+2018-01-12 21:06:10,854 - mini_spider.py[line:28] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 21:06:10,854 - mini_spider.py[line:30] - DEBUG: current depth: 0
+2018-01-12 21:06:10,854 - mini_spider.py[line:31] - DEBUG: current queue size: 1
+2018-01-12 21:08:58,651 - mini_spider.py[line:24] - DEBUG: max depth: 1
+2018-01-12 21:08:58,651 - mini_spider.py[line:28] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 21:08:58,651 - mini_spider.py[line:30] - DEBUG: current depth: 0
+2018-01-12 21:08:58,651 - mini_spider.py[line:31] - DEBUG: current queue size: 1
+2018-01-12 21:21:28,480 - mini_spider.py[line:23] - DEBUG: max depth: 1
+2018-01-12 21:21:28,480 - mini_spider.py[line:27] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 21:21:28,480 - mini_spider.py[line:29] - DEBUG: current depth: 0
+2018-01-12 21:21:28,480 - mini_spider.py[line:30] - DEBUG: current queue size: 1
+2018-01-12 21:21:28,506 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 21:21:28,510 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 21:21:28,515 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 21:21:28,516 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:21:28,520 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:21:28,523 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:21:28,526 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 21:21:28,532 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 21:21:28,535 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 21:21:28,539 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 21:21:28,542 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:21:28,545 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:21:28,548 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:21:28,551 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:21:28,552 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:21:28,556 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:21:28,559 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:21:28,562 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:21:28,565 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:21:28,569 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:21:28,572 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:21:28,575 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:21:28,576 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:21:28,579 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:21:28,582 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:21:28,585 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:21:28,588 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:21:28,591 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:21:28,592 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:21:28,595 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:21:28,598 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:21:28,601 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:21:28,605 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:21:28,608 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:21:28,609 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:21:28,612 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:21:28,615 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:22:07,914 - mini_spider.py[line:23] - DEBUG: max depth: 1
+2018-01-12 21:22:07,914 - mini_spider.py[line:27] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 21:22:07,914 - mini_spider.py[line:29] - DEBUG: current depth: 0
+2018-01-12 21:22:07,914 - mini_spider.py[line:30] - DEBUG: current queue size: 1
+2018-01-12 21:22:07,936 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 21:22:07,938 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 21:22:07,943 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 21:22:07,946 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:22:07,948 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:22:07,953 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:22:07,956 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 21:22:07,957 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 21:22:07,960 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 21:22:07,963 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 21:22:07,967 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:22:07,970 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:22:07,971 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:22:07,976 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:22:07,977 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:22:07,982 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:22:07,984 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:22:07,986 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:22:07,990 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:22:07,993 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:22:07,997 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:22:08,000 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:22:08,003 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:22:08,006 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:22:08,009 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:22:08,012 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:22:08,015 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:22:08,017 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:22:08,020 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:22:08,023 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:22:08,026 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:22:08,030 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:22:08,032 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:22:08,036 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:22:08,039 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:22:08,042 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:22:08,045 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:28:54,944 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 21:28:54
+2018-01-12 21:28:54,947 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 21:28:54,947 - mini_spider.py[line:30] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 21:28:54,947 - mini_spider.py[line:32] - DEBUG: current depth: 0
+2018-01-12 21:28:54,947 - mini_spider.py[line:33] - DEBUG: current queue size: 1
+2018-01-12 21:28:54,974 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 21:28:54,979 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 21:28:54,982 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 21:28:54,984 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:28:54,987 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:28:54,990 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:28:54,993 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 21:28:54,997 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 21:28:55,000 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 21:28:55,003 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 21:28:55,006 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:28:55,009 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:28:55,015 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:28:55,017 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:28:55,019 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:28:55,025 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:28:55,026 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:28:55,032 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:28:55,033 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:28:55,036 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:28:55,039 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:28:55,042 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:28:55,045 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:28:55,049 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:28:55,052 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:28:55,053 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:28:55,056 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:28:55,059 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:28:55,062 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:28:55,065 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:28:55,069 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:28:55,071 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:28:55,073 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:28:55,079 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:28:55,084 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:28:55,085 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:28:55,088 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:29:14,322 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 21:29:14
+2018-01-12 21:29:14,322 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 21:29:14,322 - mini_spider.py[line:30] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 21:29:14,323 - mini_spider.py[line:32] - DEBUG: current depth: 0
+2018-01-12 21:29:14,323 - mini_spider.py[line:33] - DEBUG: current queue size: 1
+2018-01-12 21:29:14,349 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 21:29:14,354 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 21:29:14,358 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 21:29:14,364 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:29:14,368 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:29:14,371 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:29:14,374 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 21:29:14,380 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 21:29:14,382 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 21:29:14,384 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 21:29:14,388 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:29:14,392 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:29:14,398 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:29:14,401 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:29:14,404 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:29:14,407 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:29:14,410 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:29:14,414 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:29:14,415 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:29:14,418 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:29:14,421 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:29:14,424 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:29:14,427 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:29:14,431 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:29:14,434 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:29:14,437 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:29:14,438 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:29:14,441 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:29:14,446 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:29:14,448 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:29:14,451 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:29:14,454 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:29:14,457 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:29:14,460 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:29:14,463 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:29:14,467 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:29:14,470 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:29:14,470 - mini_spider.py[line:38] - DEBUG: spider gracefully end at: 2018-01-12 21:29:14full duration: 0.148000001907
+2018-01-12 21:29:22,578 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 21:29:22
+2018-01-12 21:29:22,579 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 21:29:22,579 - mini_spider.py[line:30] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 21:29:22,579 - mini_spider.py[line:32] - DEBUG: current depth: 0
+2018-01-12 21:29:22,579 - mini_spider.py[line:33] - DEBUG: current queue size: 1
+2018-01-12 21:29:22,607 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 21:29:22,611 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 21:29:22,614 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 21:29:22,617 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:29:22,621 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:29:22,624 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:29:22,627 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 21:29:22,628 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 21:29:22,631 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 21:29:22,634 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 21:29:22,638 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:29:22,642 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:29:22,644 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:29:22,648 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:29:22,651 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:29:22,654 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:29:22,657 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:29:22,661 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:29:22,664 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:29:22,667 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:29:22,670 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:29:22,671 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:29:22,676 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:29:22,680 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:29:22,683 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:29:22,684 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:29:22,687 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:29:22,690 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:29:22,693 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:29:22,694 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:29:22,697 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:29:22,700 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:29:22,703 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:29:22,706 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:29:22,709 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:29:22,710 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:29:22,713 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:29:22,713 - mini_spider.py[line:38] - DEBUG: spider gracefully end at: 2018-01-12 21:29:22full duration: 0.134999990463s
+2018-01-12 21:29:49,828 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 21:29:49
+2018-01-12 21:29:49,828 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 21:29:49,828 - mini_spider.py[line:30] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 21:29:49,828 - mini_spider.py[line:32] - DEBUG: current depth: 0
+2018-01-12 21:29:49,828 - mini_spider.py[line:33] - DEBUG: current queue size: 1
+2018-01-12 21:29:49,851 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 21:29:49,855 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 21:29:49,858 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 21:29:49,861 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:29:49,864 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:29:49,867 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:29:49,869 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 21:29:49,871 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 21:29:49,875 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 21:29:49,877 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 21:29:49,880 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:29:49,882 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:29:49,885 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:29:49,888 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:29:49,891 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:29:49,897 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:29:49,900 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:29:49,903 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:29:49,904 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:29:49,907 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:29:49,911 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:29:49,913 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:29:49,915 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:29:49,918 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:29:49,924 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:29:49,926 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:29:49,927 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:29:49,930 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:29:49,933 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:29:49,936 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:29:49,938 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:29:49,941 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:29:49,944 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:29:49,946 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:29:49,948 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:29:49,950 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:29:49,954 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:29:49,956 - mini_spider.py[line:38] - DEBUG: spider gracefully end at: 2018-01-12 21:29:49 Full Duration: 0.128000020981s
+2018-01-12 21:30:21,158 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 21:30:21
+2018-01-12 21:30:21,160 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 21:30:21,160 - mini_spider.py[line:30] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 21:30:21,160 - mini_spider.py[line:32] - DEBUG: current depth: 0
+2018-01-12 21:30:21,161 - mini_spider.py[line:33] - DEBUG: current queue size: 1
+2018-01-12 21:30:21,184 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 21:30:21,188 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 21:30:21,191 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 21:30:21,194 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:30:21,197 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:30:21,200 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:30:21,203 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 21:30:21,206 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 21:30:21,207 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 21:30:21,210 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 21:30:21,213 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:30:21,217 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:30:21,220 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:30:21,223 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:30:21,226 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:30:21,229 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:30:21,230 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:30:21,233 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:30:21,236 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:30:21,239 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:30:21,243 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:30:21,244 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:30:21,247 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:30:21,250 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:30:21,253 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:30:21,256 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:30:21,259 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:30:21,262 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:30:21,263 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:30:21,266 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:30:21,269 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:30:21,272 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:30:21,275 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:30:21,278 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:30:21,279 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:30:21,282 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:30:21,286 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:30:21,286 - mini_spider.py[line:38] - DEBUG: spider gracefully end at: 2018-01-12 21:30:21 Duration: 0.125999927521s
+2018-01-12 21:30:40,296 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 21:30:40
+2018-01-12 21:30:40,296 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 21:30:40,296 - mini_spider.py[line:30] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 21:30:40,296 - mini_spider.py[line:32] - DEBUG: current depth: 0
+2018-01-12 21:30:40,296 - mini_spider.py[line:33] - DEBUG: current queue size: 1
+2018-01-12 21:30:40,318 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 21:30:40,322 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 21:30:40,325 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 21:30:40,328 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:30:40,331 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:30:40,334 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:30:40,336 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 21:30:40,338 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 21:30:40,342 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 21:30:40,345 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 21:30:40,348 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:30:40,351 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:30:40,354 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:30:40,357 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:30:40,359 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:30:40,362 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:30:40,365 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:30:40,368 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:30:40,371 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:30:40,374 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:30:40,378 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:30:40,380 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:30:40,381 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:30:40,385 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:30:40,388 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:30:40,390 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:30:40,392 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:30:40,395 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:30:40,398 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:30:40,401 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:30:40,404 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:30:40,407 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:30:40,410 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:30:40,413 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:30:40,415 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:30:40,417 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:30:40,421 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:30:40,421 - mini_spider.py[line:38] - DEBUG: spider gracefully end at: 2018-01-12 21:30:40 Full Duration: 0.125s
+2018-01-12 21:30:55,528 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 21:30:55
+2018-01-12 21:30:55,529 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 21:30:55,529 - mini_spider.py[line:30] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 21:30:55,529 - mini_spider.py[line:32] - DEBUG: current depth: 0
+2018-01-12 21:30:55,529 - mini_spider.py[line:33] - DEBUG: current queue size: 1
+2018-01-12 21:30:55,552 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 21:30:55,556 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 21:30:55,559 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 21:30:55,562 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:30:55,565 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:30:55,569 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:30:55,572 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 21:30:55,573 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 21:30:55,576 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 21:30:55,579 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 21:30:55,584 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:30:55,586 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:30:55,589 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:30:55,592 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:30:55,595 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:30:55,598 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:30:55,601 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:30:55,604 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:30:55,605 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:30:55,608 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:30:55,611 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:30:55,614 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:30:55,617 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:30:55,619 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:30:55,621 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:30:55,625 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:30:55,628 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:30:55,631 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:30:55,632 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:30:55,635 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:30:55,638 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:30:55,641 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:30:55,644 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:30:55,647 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:30:55,650 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:30:55,651 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:30:55,654 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:30:55,654 - mini_spider.py[line:38] - DEBUG: spider gracefully end at: 2018-01-12 21:30:55 Full Duration: 0.126999855042s
+2018-01-12 21:34:44,437 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 21:34:44 ---
+2018-01-12 21:34:44,437 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 21:34:44,438 - mini_spider.py[line:30] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 21:34:44,438 - mini_spider.py[line:32] - DEBUG: current depth: 0
+2018-01-12 21:34:44,438 - mini_spider.py[line:33] - DEBUG: current queue size: 1
+2018-01-12 21:34:44,460 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 21:34:44,464 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 21:34:44,467 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 21:34:44,471 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:34:44,474 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:34:44,477 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:34:44,480 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 21:34:44,483 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 21:34:44,484 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 21:34:44,487 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 21:34:44,490 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:34:44,493 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:34:44,496 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:34:44,499 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:34:44,500 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:34:44,503 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:34:44,506 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:34:44,509 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:34:44,510 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:34:44,513 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:34:44,516 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:34:44,519 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:34:44,520 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:34:44,523 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:34:44,526 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:34:44,528 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:34:44,530 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:34:44,532 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:34:44,536 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:34:44,538 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:34:44,540 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:34:44,543 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:34:44,546 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:34:44,549 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:34:44,551 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:34:44,552 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:34:44,555 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:34:44,555 - mini_spider.py[line:38] - DEBUG: spider gracefully end at: 2018-01-12 21:34:44 Full Duration: 0.118000030518s ---
+2018-01-12 21:35:01,198 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 21:35:01 ---|
+2018-01-12 21:35:01,200 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 21:35:01,200 - mini_spider.py[line:30] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 21:35:01,200 - mini_spider.py[line:32] - DEBUG: current depth: 0
+2018-01-12 21:35:01,200 - mini_spider.py[line:33] - DEBUG: current queue size: 1
+2018-01-12 21:35:01,223 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 21:35:01,227 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 21:35:01,230 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 21:35:01,234 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:35:01,237 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:35:01,240 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:35:01,243 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 21:35:01,246 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 21:35:01,249 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 21:35:01,252 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 21:35:01,255 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:35:01,257 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:35:01,260 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:35:01,263 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:35:01,266 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:35:01,270 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:35:01,275 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:35:01,276 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:35:01,279 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:35:01,282 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:35:01,285 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:35:01,288 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:35:01,289 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:35:01,292 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:35:01,296 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:35:01,299 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:35:01,302 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:35:01,305 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:35:01,306 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:35:01,309 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:35:01,313 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:35:01,315 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:35:01,319 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:35:01,322 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:35:01,323 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:35:01,326 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:35:01,329 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:35:01,329 - mini_spider.py[line:38] - DEBUG: spider gracefully end at: 2018-01-12 21:35:01 Full Duration: 0.131000041962s ---|
+2018-01-12 21:35:29,529 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 21:35:29 ---|
+2018-01-12 21:35:29,530 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 21:35:29,532 - mini_spider.py[line:30] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 21:35:29,532 - mini_spider.py[line:32] - DEBUG: current depth: 0
+2018-01-12 21:35:29,532 - mini_spider.py[line:33] - DEBUG: current queue size: 1
+2018-01-12 21:35:29,562 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 21:35:29,566 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 21:35:29,569 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 21:35:29,572 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:35:29,575 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:35:29,578 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:35:29,582 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 21:35:29,584 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 21:35:29,586 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 21:35:29,588 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 21:35:29,592 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:35:29,595 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:35:29,598 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:35:29,601 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:35:29,602 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:35:29,607 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:35:29,608 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:35:29,611 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:35:29,614 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:35:29,617 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:35:29,619 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:35:29,621 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:35:29,625 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:35:29,628 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:35:29,631 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:35:29,634 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:35:29,637 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:35:29,640 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:35:29,642 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:35:29,644 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:35:29,648 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:35:29,650 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:35:29,653 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:35:29,655 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:35:29,658 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:35:29,661 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:35:29,664 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:35:29,664 - mini_spider.py[line:38] - DEBUG: spider gracefully end at: 2018-01-12 21:35:29 Full Duration: 0.134000062943s - - - - -
+2018-01-12 21:36:01,436 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 21:36:01 ---
+2018-01-12 21:36:01,437 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 21:36:01,437 - mini_spider.py[line:30] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 21:36:01,437 - mini_spider.py[line:32] - DEBUG: current depth: 0
+2018-01-12 21:36:01,437 - mini_spider.py[line:33] - DEBUG: current queue size: 1
+2018-01-12 21:36:01,463 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 21:36:01,467 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 21:36:01,470 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 21:36:01,473 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:36:01,476 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:36:01,479 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:36:01,482 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 21:36:01,483 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 21:36:01,486 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 21:36:01,490 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 21:36:01,493 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:36:01,496 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:36:01,499 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:36:01,503 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:36:01,506 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:36:01,509 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:36:01,510 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:36:01,513 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:36:01,516 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:36:01,519 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:36:01,522 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:36:01,523 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:36:01,526 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:36:01,529 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:36:01,532 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:36:01,536 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:36:01,539 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:36:01,542 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:36:01,546 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:36:01,549 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:36:01,552 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:36:01,553 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:36:01,556 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:36:01,559 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:36:01,562 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:36:01,565 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:36:01,568 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:36:01,568 - mini_spider.py[line:38] - DEBUG: spider gracefully end at: 2018-01-12 21:36:01 Full Duration: 0.131999969482s ---
+2018-01-12 21:36:16,239 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 21:36:16 ---
+2018-01-12 21:36:16,240 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 21:36:16,240 - mini_spider.py[line:30] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 21:36:16,240 - mini_spider.py[line:32] - DEBUG: current depth: 0
+2018-01-12 21:36:16,240 - mini_spider.py[line:33] - DEBUG: current queue size: 1
+2018-01-12 21:36:16,266 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 21:36:16,269 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 21:36:16,273 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 21:36:16,276 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:36:16,279 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:36:16,282 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:36:16,285 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 21:36:16,288 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 21:36:16,290 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 21:36:16,292 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 21:36:16,296 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:36:16,299 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:36:16,302 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:36:16,305 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:36:16,308 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:36:16,312 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:36:16,313 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:36:16,316 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:36:16,319 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:36:16,322 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:36:16,325 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:36:16,328 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:36:16,331 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:36:16,334 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:36:16,336 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:36:16,339 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:36:16,342 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:36:16,345 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:36:16,348 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:36:16,351 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:36:16,355 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:36:16,357 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:36:16,359 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:36:16,362 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:36:16,365 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:36:16,368 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:36:16,371 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:36:16,371 - mini_spider.py[line:38] - DEBUG: spider gracefully end at: 2018-01-12 21:36:16 Full Duration: 0.131999969482s ---
+2018-01-12 21:43:22,811 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 21:43:22 ---
+2018-01-12 21:43:22,812 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 21:43:22,812 - mini_spider.py[line:30] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 21:43:22,812 - mini_spider.py[line:32] - DEBUG: current depth: 0
+2018-01-12 21:43:22,812 - mini_spider.py[line:33] - DEBUG: current queue size: 1
+2018-01-12 21:43:22,832 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 21:43:22,836 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 21:43:22,839 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 21:43:22,842 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:43:22,845 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:43:22,848 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:43:22,851 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 21:43:22,855 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 21:43:22,857 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 21:43:22,859 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 21:43:22,862 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:43:22,865 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:43:22,868 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:43:22,871 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:43:22,874 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:43:22,877 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:43:22,880 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:43:22,881 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:43:22,884 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:43:22,887 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:43:22,891 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:43:22,892 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:43:22,894 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:43:22,898 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:43:22,901 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:43:22,903 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:43:22,905 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:43:22,908 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:43:22,911 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:43:22,914 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:43:22,917 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:43:22,920 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:43:22,923 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:43:22,926 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:43:22,928 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:43:22,931 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:43:22,934 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:43:22,934 - mini_spider.py[line:38] - DEBUG: spider gracefully end at: 2018-01-12 21:43:22 Full Duration: 0.12299990654s ---
+2018-01-12 21:44:18,694 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 21:44:18 ---
+2018-01-12 21:44:18,696 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 21:44:18,696 - mini_spider.py[line:30] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 21:44:18,696 - mini_spider.py[line:32] - DEBUG: current depth: 0
+2018-01-12 21:44:18,696 - mini_spider.py[line:33] - DEBUG: current queue size: 1
+2018-01-12 21:44:18,721 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 21:44:18,724 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 21:44:18,729 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 21:44:18,732 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:44:18,739 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:44:18,743 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:44:18,746 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 21:44:18,749 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 21:44:18,752 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 21:44:18,755 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 21:44:18,759 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 21:44:18,762 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:44:18,765 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:44:18,767 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 21:44:18,772 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:44:18,775 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:44:18,778 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:44:18,819 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:44:18,822 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 21:44:18,825 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:44:18,828 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:44:18,831 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:44:18,834 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 21:44:18,838 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 21:44:18,841 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 21:44:18,842 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:44:18,845 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:44:18,848 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:44:18,851 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:44:18,855 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:44:18,858 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:44:18,861 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 21:44:18,864 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 21:44:18,867 - crawl_thread.py[line:39] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 21:44:18,868 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:44:18,871 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:44:18,874 - crawl_thread.py[line:44] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 21:44:18,875 - mini_spider.py[line:38] - DEBUG: spider gracefully end at: 2018-01-12 21:44:18 Full Duration: 0.180000066757s ---
+2018-01-12 22:03:34,176 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 22:03:34 ---
+2018-01-12 22:03:34,177 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 22:03:34,177 - mini_spider.py[line:32] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 22:03:34,177 - mini_spider.py[line:34] - DEBUG: current depth: 0
+2018-01-12 22:03:34,177 - mini_spider.py[line:35] - DEBUG: current queue size: 1
+2018-01-12 22:03:34,177 - crawl_thread.py[line:20] - INFO: thread timeout...
+2018-01-12 22:04:21,914 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 22:04:21 ---
+2018-01-12 22:04:21,914 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 22:04:21,914 - mini_spider.py[line:32] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 22:04:21,914 - mini_spider.py[line:34] - DEBUG: current depth: 0
+2018-01-12 22:04:21,914 - mini_spider.py[line:35] - DEBUG: current queue size: 1
+2018-01-12 22:04:21,914 - crawl_thread.py[line:20] - INFO: thread timeout...
+2018-01-12 22:04:22,917 - crawl_thread.py[line:20] - INFO: thread timeout...
+2018-01-12 22:04:23,918 - crawl_thread.py[line:20] - INFO: thread timeout...
+2018-01-12 22:04:24,921 - crawl_thread.py[line:20] - INFO: thread timeout...
+2018-01-12 22:04:25,923 - crawl_thread.py[line:20] - INFO: thread timeout...
+2018-01-12 22:04:26,927 - crawl_thread.py[line:20] - INFO: thread timeout...
+2018-01-12 22:04:27,930 - crawl_thread.py[line:20] - INFO: thread timeout...
+2018-01-12 22:04:28,931 - crawl_thread.py[line:20] - INFO: thread timeout...
+2018-01-12 22:04:29,933 - mini_spider.py[line:43] - DEBUG: spider gracefully end at: 2018-01-12 22:04:29 Full Duration: 8.01900005341s ---
+2018-01-12 22:07:54,746 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 22:07:54 ---
+2018-01-12 22:07:54,746 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 22:07:54,746 - mini_spider.py[line:32] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 22:07:54,746 - mini_spider.py[line:34] - DEBUG: current depth: 0
+2018-01-12 22:07:54,746 - mini_spider.py[line:35] - DEBUG: current queue size: 1
+2018-01-12 22:07:54,747 - crawl_thread.py[line:20] - INFO: thread timeout...
+2018-01-12 22:07:54,769 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 22:07:54,773 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 22:07:54,776 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 22:07:54,779 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 22:07:54,782 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 22:07:54,786 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 22:07:54,789 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 22:07:54,790 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 22:07:54,793 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 22:07:54,796 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 22:07:54,799 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 22:07:54,802 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 22:07:54,805 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 22:07:54,808 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 22:07:54,811 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 22:07:54,813 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 22:07:54,815 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 22:07:54,819 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 22:07:54,821 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 22:07:54,822 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 22:07:54,825 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 22:07:54,828 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 22:07:54,831 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 22:07:54,834 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 22:07:54,836 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 22:07:54,838 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 22:07:54,842 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 22:07:54,845 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 22:07:54,846 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 22:07:54,849 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 22:07:54,852 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 22:07:54,855 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 22:07:54,857 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 22:07:54,861 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 22:07:54,862 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 22:07:54,865 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 22:07:54,868 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 22:07:55,749 - crawl_thread.py[line:20] - INFO: thread timeout...
+2018-01-12 22:07:56,750 - crawl_thread.py[line:20] - INFO: thread timeout...
+2018-01-12 22:07:57,753 - crawl_thread.py[line:20] - INFO: thread timeout...
+2018-01-12 22:07:58,756 - crawl_thread.py[line:20] - INFO: thread timeout...
+2018-01-12 22:07:59,759 - crawl_thread.py[line:20] - INFO: thread timeout...
+2018-01-12 22:08:00,760 - crawl_thread.py[line:20] - INFO: thread timeout...
+2018-01-12 22:08:01,762 - crawl_thread.py[line:20] - INFO: thread timeout...
+2018-01-12 22:08:02,766 - mini_spider.py[line:43] - DEBUG: spider gracefully end at: 2018-01-12 22:08:02 Full Duration: 8.01999998093s ---
+2018-01-12 22:08:57,127 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 22:08:57 ---
+2018-01-12 22:08:57,127 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 22:08:57,128 - mini_spider.py[line:32] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 22:08:57,128 - mini_spider.py[line:34] - DEBUG: current depth: 0
+2018-01-12 22:08:57,128 - mini_spider.py[line:35] - DEBUG: current queue size: 1
+2018-01-12 22:08:57,148 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 22:08:57,151 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 22:08:57,155 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 22:08:57,158 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 22:08:57,161 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 22:08:57,164 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 22:08:57,167 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 22:08:57,170 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 22:08:57,173 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 22:08:57,174 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 22:08:57,177 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 22:08:57,180 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 22:08:57,183 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 22:08:57,186 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 22:08:57,188 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 22:08:57,191 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 22:08:57,194 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 22:08:57,196 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 22:08:57,198 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 22:08:57,200 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 22:08:57,203 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 22:08:57,207 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 22:08:57,209 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 22:08:57,211 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 22:08:57,213 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 22:08:57,217 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 22:08:57,219 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 22:08:57,221 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 22:08:57,224 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 22:08:57,266 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 22:08:57,269 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 22:08:57,273 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 22:08:57,275 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 22:08:57,278 - crawl_thread.py[line:47] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 22:08:57,280 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 22:08:57,282 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 22:08:57,285 - crawl_thread.py[line:52] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 22:09:05,135 - mini_spider.py[line:43] - DEBUG: spider gracefully end at: 2018-01-12 22:09:05 Full Duration: 8.00899982452s ---
+2018-01-12 22:11:13,852 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 22:11:13 ---
+2018-01-12 22:11:13,854 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 22:11:13,854 - mini_spider.py[line:32] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 22:11:13,854 - mini_spider.py[line:34] - DEBUG: current depth: 0
+2018-01-12 22:11:13,854 - mini_spider.py[line:35] - DEBUG: current queue size: 1
+2018-01-12 22:11:13,855 - crawl_thread.py[line:23] - INFO: thread timeout...
+2018-01-12 22:14:16,181 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 22:14:16 ---
+2018-01-12 22:14:16,183 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 22:14:16,183 - mini_spider.py[line:32] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 22:14:16,183 - mini_spider.py[line:34] - DEBUG: current depth: 0
+2018-01-12 22:14:16,183 - mini_spider.py[line:35] - DEBUG: current queue size: 1
+2018-01-12 22:14:16,193 - crawl_thread.py[line:64] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 22:14:16,196 - crawl_thread.py[line:64] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 22:14:16,198 - crawl_thread.py[line:64] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 22:14:16,201 - crawl_thread.py[line:64] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 22:14:16,204 - crawl_thread.py[line:64] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 22:14:16,209 - crawl_thread.py[line:64] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 22:14:16,210 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 22:14:16,213 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 22:14:16,217 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 22:14:16,220 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 22:14:16,223 - crawl_thread.py[line:64] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 22:14:16,226 - crawl_thread.py[line:64] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 22:14:16,230 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 22:14:16,233 - crawl_thread.py[line:64] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 22:14:16,236 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 22:14:16,239 - crawl_thread.py[line:64] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 22:14:16,240 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 22:14:16,243 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 22:14:16,246 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 22:14:16,247 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 22:14:16,250 - crawl_thread.py[line:64] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 22:14:16,253 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 22:14:16,256 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 22:14:16,259 - crawl_thread.py[line:64] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 22:14:16,262 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 22:14:16,263 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 22:14:16,266 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 22:14:16,269 - crawl_thread.py[line:64] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 22:14:16,272 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 22:14:16,273 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 22:14:16,276 - crawl_thread.py[line:64] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 22:14:16,279 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 22:14:16,282 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 22:14:16,286 - crawl_thread.py[line:64] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 22:14:16,288 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 22:14:16,289 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 22:14:16,292 - crawl_thread.py[line:69] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 22:14:24,190 - mini_spider.py[line:43] - DEBUG: spider gracefully end at: 2018-01-12 22:14:24 Full Duration: 8.00900006294s ---
+2018-01-12 22:22:09,049 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 22:22:09 ---
+2018-01-12 22:22:09,055 - mini_spider.py[line:26] - DEBUG: max depth: 3
+2018-01-12 22:22:09,055 - mini_spider.py[line:32] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 22:22:09,056 - mini_spider.py[line:34] - DEBUG: current depth: 0
+2018-01-12 22:22:09,056 - mini_spider.py[line:35] - DEBUG: current queue size: 1
+2018-01-12 22:22:09,069 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 22:22:09,072 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 22:22:09,076 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 22:22:09,081 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 22:22:09,085 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 22:22:09,088 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 22:22:09,092 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 22:22:09,096 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 22:22:09,099 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 22:22:09,104 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 22:22:09,108 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 22:22:09,114 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 22:22:09,117 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 22:22:09,121 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 22:22:09,124 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 22:22:09,128 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 22:22:09,131 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 22:22:09,135 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 22:22:09,138 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 22:22:09,142 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 22:22:09,148 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 22:22:09,151 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 22:22:09,154 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 22:22:09,157 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 22:22:09,161 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 22:22:09,164 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 22:22:09,165 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 22:22:09,168 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 22:22:09,171 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 22:22:09,174 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 22:22:09,177 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 22:22:09,180 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 22:22:09,184 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 22:22:09,187 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 22:22:09,190 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 22:22:09,194 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 22:22:09,197 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 22:22:17,066 - mini_spider.py[line:34] - DEBUG: current depth: 1
+2018-01-12 22:22:17,068 - mini_spider.py[line:35] - DEBUG: current queue size: 0
+2018-01-12 22:22:25,078 - mini_spider.py[line:34] - DEBUG: current depth: 2
+2018-01-12 22:22:25,079 - mini_spider.py[line:35] - DEBUG: current queue size: 0
+2018-01-12 22:22:33,091 - mini_spider.py[line:43] - DEBUG: spider gracefully end at: 2018-01-12 22:22:33 Full Duration: 24.0410001278s ---
+2018-01-12 22:22:59,048 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 22:22:59 ---
+2018-01-12 22:22:59,055 - mini_spider.py[line:26] - DEBUG: max depth: 1
+2018-01-12 22:22:59,055 - mini_spider.py[line:32] - DEBUG: base url: http://pycm.baidu.com:8081
+2018-01-12 22:22:59,055 - mini_spider.py[line:34] - DEBUG: current depth: 0
+2018-01-12 22:22:59,055 - mini_spider.py[line:35] - DEBUG: current queue size: 1
+2018-01-12 22:22:59,065 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081
+2018-01-12 22:22:59,068 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html
+2018-01-12 22:22:59,071 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html
+2018-01-12 22:22:59,073 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 22:22:59,078 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 22:22:59,081 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 22:22:59,084 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page3.html/page4.html is invalid
+2018-01-12 22:22:59,086 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page3_3.html is invalid
+2018-01-12 22:22:59,091 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page3_2.html is invalid
+2018-01-12 22:22:59,094 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page4.html/page4.html is invalid
+2018-01-12 22:22:59,096 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html
+2018-01-12 22:22:59,101 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 22:22:59,105 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 22:22:59,109 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html
+2018-01-12 22:22:59,115 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 22:22:59,118 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 22:22:59,124 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 22:22:59,127 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 22:22:59,131 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/mirror/index.html/page4.html is invalid
+2018-01-12 22:22:59,135 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 22:22:59,138 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 22:22:59,142 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 22:22:59,147 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2.html/page4.html is invalid
+2018-01-12 22:22:59,151 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html
+2018-01-12 22:22:59,154 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_3.html is invalid
+2018-01-12 22:22:59,157 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 22:22:59,161 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 22:22:59,164 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 22:22:59,168 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 22:22:59,174 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 22:22:59,178 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 22:22:59,181 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_3.html is invalid
+2018-01-12 22:22:59,186 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2.html/page4.html is invalid
+2018-01-12 22:22:59,190 - crawl_thread.py[line:63] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html
+2018-01-12 22:22:59,193 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 22:22:59,197 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 22:22:59,200 - crawl_thread.py[line:68] - DEBUG: current url: http://pycm.baidu.com:8081/page2_2_2.html/page4.html is invalid
+2018-01-12 22:23:07,065 - mini_spider.py[line:43] - DEBUG: spider gracefully end at: 2018-01-12 22:23:07 Full Duration: 8.01600003242s ---
+2018-01-12 22:23:48,740 - mini_spider.py[line:13] - DEBUG: spider start at: 2018-01-12 22:23:48 ---
