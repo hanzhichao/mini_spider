@@ -73,8 +73,8 @@ def save(url, output_dir):
     if not os.path.exists(file_dir):
         try:
             os.makedirs(file_dir)  # make sub dirs in output dir
-        except IOError:
-            log.logger.error("create dirs fail")
+        except WindowsError, OSError:
+            log.logger.error("create dirs: %s fail", file_dir)
     file_path = os.path.join(file_dir, file_name)  # eg. page1_1_1.html
     log.logger.debug("file_path: " + file_path)
     try:

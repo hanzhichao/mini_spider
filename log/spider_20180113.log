@@ -1046,3 +1046,697 @@
 2018-01-13 22:24:49,618 - mini_spider.py[line:59] - DEBUG: current depth: 2
 2018-01-13 22:24:49,618 - mini_spider.py[line:60] - DEBUG: current queue size: 0
 2018-01-13 22:24:57,631 - mini_spider.py[line:73] - DEBUG: spider gracefully end at: 2018-01-13 22:24:57 Full Duration: 24.0329999924s ---
+2018-01-13 22:54:48,338 - mini_spider.py[line:37] - DEBUG: spider start at: 2018-01-13 22:54:48 ---
+2018-01-13 22:54:48,338 - mini_spider.py[line:45] - DEBUG: output_dir: ./output\localhost
+2018-01-13 22:54:48,339 - mini_spider.py[line:53] - DEBUG: base url: http://localhost
+2018-01-13 22:54:48,339 - mini_spider.py[line:54] - DEBUG: max depth: 3
+2018-01-13 22:54:48,339 - mini_spider.py[line:59] - DEBUG: current depth: 0
+2018-01-13 22:54:48,339 - mini_spider.py[line:60] - DEBUG: current queue size: 1
+2018-01-13 22:54:49,365 - webpage_parser.py[line:62] - DEBUG: url: http://localhost
+2018-01-13 22:54:49,367 - webpage_parser.py[line:64] - DEBUG: []
+2018-01-13 22:54:49,367 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost
+2018-01-13 22:54:49,368 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\index.html
+2018-01-13 22:54:50,384 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost
+2018-01-13 22:54:56,348 - mini_spider.py[line:59] - DEBUG: current depth: 1
+2018-01-13 22:54:56,348 - mini_spider.py[line:60] - DEBUG: current queue size: 4
+2018-01-13 22:54:57,358 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html
+2018-01-13 22:54:57,359 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html']
+2018-01-13 22:54:57,359 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror
+2018-01-13 22:54:57,361 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html
+2018-01-13 22:54:58,364 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2.html
+2018-01-13 22:54:58,364 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2.html']
+2018-01-13 22:54:58,365 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2
+2018-01-13 22:54:58,368 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2.html
+2018-01-13 22:54:58,381 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/mirror/index.html
+2018-01-13 22:54:59,365 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/quot;page4.html
+2018-01-13 22:54:59,365 - webpage_parser.py[line:64] - DEBUG: ['quot;page4.html']
+2018-01-13 22:54:59,365 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost
+2018-01-13 22:54:59,367 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\quot;page4.html
+2018-01-13 22:54:59,391 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html
+2018-01-13 22:54:59,391 - webpage_parser.py[line:64] - DEBUG: ['page3.html']
+2018-01-13 22:54:59,391 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost
+2018-01-13 22:54:59,391 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html
+2018-01-13 22:54:59,401 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2.html
+2018-01-13 22:55:00,367 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html/quot;page4.html
+2018-01-13 22:55:00,368 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html', 'quot;page4.html']
+2018-01-13 22:55:00,368 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror\index.html
+2018-01-13 22:55:00,368 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html\quot;page4.html
+2018-01-13 22:55:00,410 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html/../page1.html
+2018-01-13 22:55:00,410 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html', '..', 'page1.html']
+2018-01-13 22:55:00,411 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror\index.html\..
+2018-01-13 22:55:00,411 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html\..\page1.html
+2018-01-13 22:55:00,414 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page3.html
+2018-01-13 22:55:01,368 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html
+2018-01-13 22:55:01,368 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html']
+2018-01-13 22:55:01,369 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2
+2018-01-13 22:55:01,371 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html
+2018-01-13 22:55:01,381 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\mirror\index.html\quot;page4.html fail
+2018-01-13 22:55:01,394 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html/../../page3.html
+2018-01-13 22:55:01,395 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html', '..', '..', 'page3.html']
+2018-01-13 22:55:01,397 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror\index.html\..\..
+2018-01-13 22:55:01,397 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html\..\..\page3.html
+2018-01-13 22:55:01,421 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2.html/quot;page4.html
+2018-01-13 22:55:01,421 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2.html', 'quot;page4.html']
+2018-01-13 22:55:01,421 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2.html
+2018-01-13 22:55:01,421 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2.html\quot;page4.html
+2018-01-13 22:55:02,369 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html
+2018-01-13 22:55:02,371 - webpage_parser.py[line:64] - DEBUG: ['page3.html']
+2018-01-13 22:55:02,371 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost
+2018-01-13 22:55:02,371 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html
+2018-01-13 22:55:02,394 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2.html/page2_1/page2_1.html
+2018-01-13 22:55:02,394 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2.html', 'page2_1', 'page2_1.html']
+2018-01-13 22:55:02,394 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2.html\page2_1
+2018-01-13 22:55:02,401 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html
+2018-01-13 22:55:02,411 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/mirror/index.html/../../page3.html
+2018-01-13 22:55:02,427 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2.html\quot;page4.html fail
+2018-01-13 22:55:02,430 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2.html/page2_2.html
+2018-01-13 22:55:02,430 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2.html', 'page2_2.html']
+2018-01-13 22:55:02,430 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2.html
+2018-01-13 22:55:02,430 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2.html\page2_2.html
+2018-01-13 22:55:03,368 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/quot;page4.html
+2018-01-13 22:55:03,368 - webpage_parser.py[line:64] - DEBUG: ['page3.html', 'quot;page4.html']
+2018-01-13 22:55:03,368 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html
+2018-01-13 22:55:03,368 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\quot;page4.html
+2018-01-13 22:55:03,382 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page3.html
+2018-01-13 22:55:03,411 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../page2_3.html
+2018-01-13 22:55:03,411 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:03,411 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..
+2018-01-13 22:55:03,411 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\page2_3.html
+2018-01-13 22:55:03,418 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html
+2018-01-13 22:55:03,420 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html']
+2018-01-13 22:55:03,420 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2
+2018-01-13 22:55:03,420 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html
+2018-01-13 22:55:03,434 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html
+2018-01-13 22:55:03,434 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:03,434 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..
+2018-01-13 22:55:03,434 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html
+2018-01-13 22:55:03,440 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2.html\page2_2.html fail
+2018-01-13 22:55:04,365 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/quot;page4.html
+2018-01-13 22:55:04,365 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', 'quot;page4.html']
+2018-01-13 22:55:04,365 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html
+2018-01-13 22:55:04,365 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\quot;page4.html
+2018-01-13 22:55:04,375 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page3.html\quot;page4.html fail
+2018-01-13 22:55:04,387 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html
+2018-01-13 22:55:04,388 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html']
+2018-01-13 22:55:04,388 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..
+2018-01-13 22:55:04,388 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html
+2018-01-13 22:55:04,427 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html
+2018-01-13 22:55:04,444 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page3.html/../../page3.html
+2018-01-13 22:55:04,446 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html
+2018-01-13 22:55:04,447 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html']
+2018-01-13 22:55:04,447 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..
+2018-01-13 22:55:04,447 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html
+2018-01-13 22:55:05,381 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\quot;page4.html fail
+2018-01-13 22:55:05,390 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:05,390 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:05,390 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror\index.html\..\..\page3.html
+2018-01-13 22:55:05,391 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:05,398 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html
+2018-01-13 22:55:05,427 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:05,427 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:05,427 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror\index.html\..\..\page3.html\..
+2018-01-13 22:55:05,427 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:05,433 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html/../../page3.html/../../page3.html
+2018-01-13 22:55:05,433 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:05,434 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror\index.html\..\..\page3.html\..\..
+2018-01-13 22:55:05,434 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:05,453 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/quot;page4.html
+2018-01-13 22:55:05,453 - webpage_parser.py[line:64] - DEBUG: ['page3.html', 'quot;page4.html']
+2018-01-13 22:55:05,454 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html
+2018-01-13 22:55:05,456 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\quot;page4.html
+2018-01-13 22:55:05,461 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../../page3.html
+2018-01-13 22:55:06,398 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../page2_3.html
+2018-01-13 22:55:06,398 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:06,398 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..
+2018-01-13 22:55:06,401 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\page2_3.html
+2018-01-13 22:55:06,408 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\mirror\index.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:06,413 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html
+2018-01-13 22:55:06,413 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:06,414 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..
+2018-01-13 22:55:06,414 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html
+2018-01-13 22:55:06,447 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/mirror/index.html/../../page3.html/../../page3.html
+2018-01-13 22:55:06,464 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page3.html\quot;page4.html fail
+2018-01-13 22:55:06,469 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/quot;page4.html
+2018-01-13 22:55:06,470 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', 'quot;page4.html']
+2018-01-13 22:55:06,470 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html
+2018-01-13 22:55:06,470 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\quot;page4.html
+2018-01-13 22:55:07,421 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html
+2018-01-13 22:55:07,421 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html']
+2018-01-13 22:55:07,421 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..
+2018-01-13 22:55:07,423 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html
+2018-01-13 22:55:07,430 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page3.html/../../page3.html
+2018-01-13 22:55:07,451 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html
+2018-01-13 22:55:07,453 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html']
+2018-01-13 22:55:07,453 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..
+2018-01-13 22:55:07,453 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html
+2018-01-13 22:55:07,456 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:07,456 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:07,456 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html
+2018-01-13 22:55:07,457 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:07,476 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:07,476 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:07,477 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..
+2018-01-13 22:55:07,477 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:07,480 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\quot;page4.html fail
+2018-01-13 22:55:08,437 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:08,440 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:08,440 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:08,443 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:08,451 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/quot;page4.html
+2018-01-13 22:55:08,453 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', 'quot;page4.html']
+2018-01-13 22:55:08,453 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html
+2018-01-13 22:55:08,453 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\quot;page4.html
+2018-01-13 22:55:08,461 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html
+2018-01-13 22:55:08,466 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../../page3.html
+2018-01-13 22:55:08,470 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:08,486 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html
+2018-01-13 22:55:08,486 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html']
+2018-01-13 22:55:08,486 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..
+2018-01-13 22:55:08,486 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html
+2018-01-13 22:55:09,466 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:09,473 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\page2_3.html\quot;page4.html fail
+2018-01-13 22:55:09,477 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html
+2018-01-13 22:55:09,479 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:09,480 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..
+2018-01-13 22:55:09,480 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html
+2018-01-13 22:55:09,487 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:09,489 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:09,490 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html
+2018-01-13 22:55:09,492 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:09,493 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:09,494 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:09,496 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..
+2018-01-13 22:55:09,496 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:09,500 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html
+2018-01-13 22:55:09,502 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:09,502 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..
+2018-01-13 22:55:09,503 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:09,506 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html
+2018-01-13 22:55:10,484 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:10,486 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:10,489 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:10,490 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:10,505 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:10,507 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:10,510 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:10,513 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:10,526 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html
+2018-01-13 22:55:10,526 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:10,530 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:10,532 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:10,532 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:10,532 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:10,536 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html
+2018-01-13 22:55:11,359 - mini_spider.py[line:59] - DEBUG: current depth: 2
+2018-01-13 22:55:11,359 - mini_spider.py[line:60] - DEBUG: current queue size: 17
+2018-01-13 22:55:11,503 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:11,540 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:11,540 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:11,542 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html
+2018-01-13 22:55:11,542 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:11,555 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:11,555 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:11,558 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..
+2018-01-13 22:55:11,559 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:11,562 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:11,563 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:11,565 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:11,565 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:11,566 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/quot;page4.html
+2018-01-13 22:55:11,569 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', 'quot;page4.html']
+2018-01-13 22:55:11,569 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/mirror/index.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:11,569 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html
+2018-01-13 22:55:11,571 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\quot;page4.html
+2018-01-13 22:55:12,368 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html
+2018-01-13 22:55:12,368 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html']
+2018-01-13 22:55:12,369 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..
+2018-01-13 22:55:12,371 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html
+2018-01-13 22:55:12,512 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html
+2018-01-13 22:55:12,513 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:12,513 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..
+2018-01-13 22:55:12,513 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html
+2018-01-13 22:55:12,540 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:12,540 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:12,542 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html
+2018-01-13 22:55:12,542 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:12,555 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:12,579 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\page2_3.html\quot;page4.html fail
+2018-01-13 22:55:12,585 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:12,585 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:12,585 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..
+2018-01-13 22:55:12,586 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:12,591 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:13,375 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html
+2018-01-13 22:55:13,375 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:13,375 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..
+2018-01-13 22:55:13,377 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:13,394 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html
+2018-01-13 22:55:13,523 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html
+2018-01-13 22:55:13,549 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:13,562 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:13,562 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:13,562 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:13,562 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:13,591 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:13,592 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:13,592 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:13,592 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:13,598 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:13,598 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:13,598 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:13,599 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:13,609 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/quot;page4.html
+2018-01-13 22:55:13,609 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', 'quot;page4.html']
+2018-01-13 22:55:13,609 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html
+2018-01-13 22:55:13,611 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\quot;page4.html
+2018-01-13 22:55:14,375 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html
+2018-01-13 22:55:14,375 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html']
+2018-01-13 22:55:14,375 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..
+2018-01-13 22:55:14,377 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html
+2018-01-13 22:55:14,392 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html
+2018-01-13 22:55:14,404 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html
+2018-01-13 22:55:14,405 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:14,405 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..
+2018-01-13 22:55:14,407 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html
+2018-01-13 22:55:14,530 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:14,530 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:14,530 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html
+2018-01-13 22:55:14,532 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:14,555 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:14,555 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:14,555 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..
+2018-01-13 22:55:14,555 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:14,571 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:14,612 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:14,618 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\quot;page4.html fail
+2018-01-13 22:55:14,621 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:14,622 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:14,622 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..
+2018-01-13 22:55:14,622 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:15,380 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:15,381 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:15,381 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:15,381 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:15,403 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html
+2018-01-13 22:55:15,408 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:15,410 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:15,410 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:15,410 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:15,418 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html
+2018-01-13 22:55:15,539 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:15,578 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:15,578 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:15,578 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:15,578 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:15,615 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html/../../page3.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:15,615 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:15,615 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:15,615 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:15,621 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html/../../page3.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:15,621 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:15,621 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:15,621 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:15,625 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:15,625 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:15,625 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:15,625 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:15,631 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:16,381 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:16,381 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:16,381 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:16,382 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:16,397 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:16,414 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:16,414 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:16,414 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:16,415 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:16,426 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:16,426 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:16,427 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:16,427 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:16,548 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/quot;page4.html
+2018-01-13 22:55:16,548 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', 'quot;page4.html']
+2018-01-13 22:55:16,548 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html
+2018-01-13 22:55:16,549 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\quot;page4.html
+2018-01-13 22:55:16,572 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html
+2018-01-13 22:55:16,573 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html']
+2018-01-13 22:55:16,573 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..
+2018-01-13 22:55:16,575 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html
+2018-01-13 22:55:16,585 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:16,624 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:16,638 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html
+2018-01-13 22:55:16,638 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:16,640 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..
+2018-01-13 22:55:16,640 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html
+2018-01-13 22:55:16,647 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/mirror/index.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:17,381 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:17,382 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:17,384 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html
+2018-01-13 22:55:17,385 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:17,395 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:17,411 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:17,411 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:17,411 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..
+2018-01-13 22:55:17,411 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:17,440 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:17,440 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:17,440 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..
+2018-01-13 22:55:17,440 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:17,443 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:17,552 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\quot;page4.html fail
+2018-01-13 22:55:17,585 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html
+2018-01-13 22:55:17,595 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:17,595 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:17,595 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:17,595 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:17,631 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:17,631 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:17,631 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:17,632 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:17,650 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html
+2018-01-13 22:55:17,655 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:17,657 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:17,657 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:17,657 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:17,661 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:17,661 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:17,661 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:17,661 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:18,382 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:18,384 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:18,384 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:18,385 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:18,398 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:18,408 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:18,408 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:18,410 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:18,410 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:18,438 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/quot;page4.html
+2018-01-13 22:55:18,438 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', 'quot;page4.html']
+2018-01-13 22:55:18,440 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html
+2018-01-13 22:55:18,440 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\quot;page4.html
+2018-01-13 22:55:18,450 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../page2_3.html
+2018-01-13 22:55:18,450 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html']
+2018-01-13 22:55:18,450 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..
+2018-01-13 22:55:18,451 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:18,451 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\page2_3.html
+2018-01-13 22:55:18,556 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../../page3.html
+2018-01-13 22:55:18,558 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:18,558 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..
+2018-01-13 22:55:18,559 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..\page3.html
+2018-01-13 22:55:18,595 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:18,595 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:18,595 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html
+2018-01-13 22:55:18,595 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:18,607 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:18,661 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:18,661 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:18,661 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..
+2018-01-13 22:55:18,663 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:18,674 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:18,703 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:19,380 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:19,381 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:19,381 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..
+2018-01-13 22:55:19,381 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:19,407 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:19,407 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:19,408 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:19,408 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:19,418 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:19,430 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:19,430 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:19,430 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:19,430 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:19,446 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\quot;page4.html fail
+2018-01-13 22:55:19,460 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:19,460 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:19,460 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:19,460 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:19,463 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../page2_3.html
+2018-01-13 22:55:19,572 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../../page3.html
+2018-01-13 22:55:19,608 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:19,615 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:19,615 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:19,615 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:19,617 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:19,658 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:19,658 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:19,660 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:19,660 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:19,684 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:19,686 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:19,686 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:19,686 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:19,711 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:19,711 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:19,711 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:19,711 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:20,403 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:20,413 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:20,414 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:20,414 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:20,414 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:20,424 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:20,427 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:20,427 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:20,427 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:20,428 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:20,453 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:20,454 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:20,454 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:20,456 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:20,470 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:20,470 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:20,470 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:20,471 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:20,471 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:20,585 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:20,586 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:20,586 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:20,588 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:20,628 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/quot;page4.html
+2018-01-13 22:55:20,628 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', 'quot;page4.html']
+2018-01-13 22:55:20,628 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html
+2018-01-13 22:55:20,630 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\quot;page4.html
+2018-01-13 22:55:20,634 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:20,683 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../page2_3.html
+2018-01-13 22:55:20,683 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html']
+2018-01-13 22:55:20,683 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..
+2018-01-13 22:55:20,683 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\page2_3.html
+2018-01-13 22:55:20,694 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:20,721 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:21,417 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../../page3.html
+2018-01-13 22:55:21,417 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:21,418 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..
+2018-01-13 22:55:21,420 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..\page3.html
+2018-01-13 22:55:21,438 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:21,438 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:21,440 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html
+2018-01-13 22:55:21,441 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:21,450 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:21,450 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:21,451 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..
+2018-01-13 22:55:21,451 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/mirror/index.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:21,453 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:21,461 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:21,473 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:21,474 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:21,474 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..
+2018-01-13 22:55:21,474 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:21,608 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:21,644 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\quot;page4.html fail
+2018-01-13 22:55:21,648 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:21,650 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:21,651 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:21,651 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:21,683 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:21,683 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:21,683 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:21,684 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:21,693 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../page2_3.html
+2018-01-13 22:55:21,700 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:21,701 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:21,701 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:21,701 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:21,729 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:21,729 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:21,729 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:21,729 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:22,440 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../../page3.html
+2018-01-13 22:55:22,460 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:22,460 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:22,461 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:22,463 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:22,470 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:22,473 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:22,474 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:22,476 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:22,476 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:22,480 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:22,480 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:22,480 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:22,482 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:22,490 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:22,490 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:22,490 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:22,490 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:22,490 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:22,614 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:22,615 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:22,615 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:22,615 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:22,654 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../page2_3.html/quot;page4.html
+2018-01-13 22:55:22,655 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', 'quot;page4.html']
+2018-01-13 22:55:22,655 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\page2_3.html
+2018-01-13 22:55:22,655 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\quot;page4.html
+2018-01-13 22:55:22,658 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:22,700 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../page2_3.html/../page2_3.html
+2018-01-13 22:55:22,700 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html']
+2018-01-13 22:55:22,701 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..
+2018-01-13 22:55:22,701 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\page2_3.html
+2018-01-13 22:55:22,710 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:22,736 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:23,453 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../page2_3.html/../../page3.html
+2018-01-13 22:55:23,453 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:23,453 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..
+2018-01-13 22:55:23,454 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..\page3.html
+2018-01-13 22:55:23,484 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:23,486 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:23,486 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..\page3.html
+2018-01-13 22:55:23,487 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:23,496 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:23,506 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:23,506 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:23,507 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..
+2018-01-13 22:55:23,509 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:23,509 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:23,509 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:23,510 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:23,510 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..
+2018-01-13 22:55:23,512 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:23,622 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:23,665 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\quot;page4.html fail
+2018-01-13 22:55:23,673 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:23,673 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:23,674 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:23,674 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:23,703 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:23,704 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:23,704 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:23,704 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:23,713 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../page2_3.html/../page2_3.html
+2018-01-13 22:55:23,719 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:23,719 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:23,719 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:23,719 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:23,743 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:23,743 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:23,743 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:23,743 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:24,474 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../page2_3.html/../../page3.html
+2018-01-13 22:55:24,503 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:24,517 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:24,519 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:24,523 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:24,525 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:24,536 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:24,538 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:24,539 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:24,540 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:24,542 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:24,542 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:24,543 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:24,545 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:24,548 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:24,549 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:24,549 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:24,551 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:24,552 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:24,634 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:24,634 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:24,634 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:24,635 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:24,680 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:24,681 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:24,683 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:24,684 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:24,690 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:24,720 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:24,720 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:24,720 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:24,720 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:24,730 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:24,750 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:25,487 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/mirror/index.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:25,489 - webpage_parser.py[line:64] - DEBUG: ['mirror', 'index.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:25,489 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:25,489 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:25,515 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:25,515 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:25,515 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:25,516 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:25,559 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:25,559 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:25,561 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:25,562 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:25,565 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:25,571 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:25,575 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:25,575 - webpage_parser.py[line:64] - DEBUG: ['page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:25,575 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:25,576 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:25,644 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:25,693 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\mirror\index.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:25,697 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../page2_3.html/quot;page4.html
+2018-01-13 22:55:25,698 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', 'quot;page4.html']
+2018-01-13 22:55:25,698 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\page2_3.html
+2018-01-13 22:55:25,698 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\quot;page4.html
+2018-01-13 22:55:25,733 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../page2_3.html/../page2_3.html
+2018-01-13 22:55:25,733 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html']
+2018-01-13 22:55:25,733 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..
+2018-01-13 22:55:25,733 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\page2_3.html
+2018-01-13 22:55:25,740 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../page2_3.html/../../page3.html
+2018-01-13 22:55:25,742 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:25,742 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..
+2018-01-13 22:55:25,742 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..\page3.html
+2018-01-13 22:55:25,756 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:25,756 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:25,757 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..\page3.html
+2018-01-13 22:55:25,757 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:26,505 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/mirror/index.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:26,526 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:26,555 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:26,555 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:26,555 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..
+2018-01-13 22:55:26,555 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:26,582 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:26,584 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:26,585 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..
+2018-01-13 22:55:26,586 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:26,601 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:26,601 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:26,601 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:26,602 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:26,602 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:26,604 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:26,605 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:26,605 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:26,609 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:26,650 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../../page3.html/../../page3.html/../../page3.html
+2018-01-13 22:55:26,651 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html']
+2018-01-13 22:55:26,651 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..
+2018-01-13 22:55:26,651 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:26,700 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html/../../page3.html/quot;page4.html
+2018-01-13 22:55:26,700 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', 'quot;page4.html']
+2018-01-13 22:55:26,700 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html
+2018-01-13 22:55:26,701 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\quot;page4.html
+2018-01-13 22:55:26,704 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\quot;page4.html fail
+2018-01-13 22:55:26,744 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../page2_3.html/../page2_3.html
+2018-01-13 22:55:26,749 - webpage_parser.py[line:62] - DEBUG: url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html/../../page3.html/../page2_3.html
+2018-01-13 22:55:26,750 - webpage_parser.py[line:64] - DEBUG: ['page2', 'page2_2.html', '..', 'page2_3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', '..', 'page3.html', '..', 'page2_3.html']
+2018-01-13 22:55:26,750 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..
+2018-01-13 22:55:26,750 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\..\page3.html\..\..\page3.html\..\..\page3.html\..\page2_3.html
+2018-01-13 22:55:26,757 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../page2_3.html/../page2_3.html/../page2_3.html/../../page3.html
+2018-01-13 22:55:26,765 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\..\..\page3.html\quot;page4.html fail
+2018-01-13 22:55:27,371 - mini_spider.py[line:73] - DEBUG: spider gracefully end at: 2018-01-13 22:55:27 Full Duration: 39.0329999924s ---
