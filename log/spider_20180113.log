@@ -1012,3 +1012,37 @@
 2018-01-13 21:30:00,818 - webpage_parser.py[line:64] - DEBUG: file_path: ./output\localhost\page2\page2_2.html\..\page2_3.html\..\page2_3.html\..\page2_3.html\page4.html
 2018-01-13 21:30:00,832 - crawl_thread.py[line:75] - DEBUG: current url: http://localhost/page2/page2_2.html/../page2_3.html/../../page3.html/../../page3.html/../../page3.html
 2018-01-13 21:30:01,528 - mini_spider.py[line:73] - DEBUG: spider gracefully end at: 2018-01-13 21:30:01 Full Duration: 39.0320000648s ---
+2018-01-13 22:22:47,858 - mini_spider.py[line:37] - DEBUG: spider start at: 2018-01-13 22:22:47 ---
+2018-01-13 22:22:47,858 - mini_spider.py[line:45] - DEBUG: output_dir: ./output\localhos
+2018-01-13 22:22:47,861 - mini_spider.py[line:53] - DEBUG: base url: http://localhos
+2018-01-13 22:22:47,862 - mini_spider.py[line:54] - DEBUG: max depth: 3
+2018-01-13 22:22:47,862 - mini_spider.py[line:59] - DEBUG: current depth: 0
+2018-01-13 22:22:47,862 - mini_spider.py[line:60] - DEBUG: current queue size: 1
+2018-01-13 22:22:54,661 - webpage_parser.py[line:51] - WARNING: current url: http://localhos is invalid
+2018-01-13 22:22:54,663 - webpage_parser.py[line:62] - DEBUG: url: http://localhos
+2018-01-13 22:22:54,663 - webpage_parser.py[line:64] - DEBUG: []
+2018-01-13 22:22:54,664 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhos
+2018-01-13 22:22:54,664 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhos\index.html
+2018-01-13 22:22:56,875 - mini_spider.py[line:59] - DEBUG: current depth: 1
+2018-01-13 22:22:56,875 - mini_spider.py[line:60] - DEBUG: current queue size: 0
+2018-01-13 22:22:56,917 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhos\index.html fail
+2018-01-13 22:23:04,887 - mini_spider.py[line:59] - DEBUG: current depth: 2
+2018-01-13 22:23:04,887 - mini_spider.py[line:60] - DEBUG: current queue size: 0
+2018-01-13 22:23:12,895 - mini_spider.py[line:73] - DEBUG: spider gracefully end at: 2018-01-13 22:23:12 Full Duration: 25.0369999409s ---
+2018-01-13 22:24:33,598 - mini_spider.py[line:37] - DEBUG: spider start at: 2018-01-13 22:24:33 ---
+2018-01-13 22:24:33,598 - mini_spider.py[line:45] - DEBUG: output_dir: ./output\localhost
+2018-01-13 22:24:33,598 - mini_spider.py[line:53] - DEBUG: base url: http://localhost
+2018-01-13 22:24:33,598 - mini_spider.py[line:54] - DEBUG: max depth: 3
+2018-01-13 22:24:33,598 - mini_spider.py[line:59] - DEBUG: current depth: 0
+2018-01-13 22:24:33,598 - mini_spider.py[line:60] - DEBUG: current queue size: 1
+2018-01-13 22:24:35,615 - webpage_parser.py[line:51] - WARNING: current url: http://localhost is invalid
+2018-01-13 22:24:35,615 - webpage_parser.py[line:62] - DEBUG: url: http://localhost
+2018-01-13 22:24:35,615 - webpage_parser.py[line:64] - DEBUG: []
+2018-01-13 22:24:35,615 - webpage_parser.py[line:72] - DEBUG: file_dir: ./output\localhost
+2018-01-13 22:24:35,615 - webpage_parser.py[line:79] - DEBUG: file_path: ./output\localhost\index.html
+2018-01-13 22:24:37,621 - webpage_parser.py[line:83] - ERROR: save file: ./output\localhost\index.html fail
+2018-01-13 22:24:41,608 - mini_spider.py[line:59] - DEBUG: current depth: 1
+2018-01-13 22:24:41,608 - mini_spider.py[line:60] - DEBUG: current queue size: 0
+2018-01-13 22:24:49,618 - mini_spider.py[line:59] - DEBUG: current depth: 2
+2018-01-13 22:24:49,618 - mini_spider.py[line:60] - DEBUG: current queue size: 0
+2018-01-13 22:24:57,631 - mini_spider.py[line:73] - DEBUG: spider gracefully end at: 2018-01-13 22:24:57 Full Duration: 24.0329999924s ---

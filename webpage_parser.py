@@ -27,9 +27,24 @@ def retrieve_urls(current_url, reg):
         
         # if urls in url_list not contains 'http' then add current_url before
         # if urls contains 'javascript' add current_url and the last part
-        url_list = map(lambda x: x if 'http' in x \
-            else (current_url + '/' + x if 'javascript' not in x \
-                else current_url + '/' + x.split('=')[1].split(';')[1]), url_list)
+        
+        def format_url(url):
+            if "&quot;" in url:
+                url.replace("&quot;", '"')
+            if "&nbsp;" in url:
+                url.replace("&nbsp;", " ")
+                
+            if 'http' in url:
+                return url
+            elif 'javascript' in url:
+                try:
+                    return current_url + '/' + url.split('=')[1][1:]
+                except IndexError:
+                    log.logger.warning("url: %s format fail" % url)
+            else:
+                return current_url + '/' + url
+            
+        url_list = map(format_url, url_list)
         
         return url_list
     except IOError:
