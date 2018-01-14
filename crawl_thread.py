@@ -63,7 +63,7 @@ def crawl(reg, output_dir):
         urls = webpage_parser.retrieve_urls(current_url, reg)
         
         # save current_url as html page in output_dir
-        webpage_parser.save(current_url, output_dir)
+        webpage_parser.save_page(current_url, output_dir)
         
         # lock the visited_url_list while appending new url
         visited_url_list_lock.acquire()
@@ -77,6 +77,4 @@ def crawl(reg, output_dir):
                 if url not in visited_url_list:
                     # put new urls to new queue if url is not visited
                     sub_url_queue.put(url)
-        
-        
 
