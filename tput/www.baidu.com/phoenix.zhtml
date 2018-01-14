@@ -1,0 +1,55 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	Error Report
+</title><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <style type="text/css">
+   .noData {
+	background-color:#F3F3FB;
+	color:#000000;
+	font-weight:bold;
+	font-size:.9em;
+         }
+		TD {
+			FONT-FAMILY: Verdana,Arial, Helvetica
+		}
+		A {
+			COLOR: #0000ff; TEXT-DECORATION: none
+		}
+		A:hover {
+			COLOR: #9966ff; TEXT-DECORATION: underline
+		}
+	</style>
+</head>
+<body>
+    <form name="form1" method="post" action="ErrorReport.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+        <table border="0" cellpadding="30" cellspacing="0" width="100%">
+            
+                <tr>
+                    <td>
+                        <script>
+
+if(document.location.href.indexOf('207592') != -1) {
+var loc = document.location.href.split('phoenix')[1];
+document.location = "http://www.covidien.com/investor/phoenix"+loc;
+}
+else {
+}
+
+</script>
+<h4>Error on Page</h4><p style="font-size: 12px"><span id="lblErrorMessage">The page you are requesting has invalid parameters</span></p><p style="font-size: 12px">Click  <a href="javascript:history.go(-1)" onclick="history.back(-1);"><< Back</a>  to return to the page from which you came.</p>
+                    </td>
+                </tr>
+            
+            
+            
+            
+        </table>
+    </form>
+</body>
+</html>
