@@ -65,3 +65,18 @@ class TestSeedFileLoad(unittest.TestCase):
         self.assertEqual(self.format_url('http://www.baidu.com', 'page4.html'),
                          'http://www.baidu.com/page4.html')
         
+    def test_retrieve_urls(self):
+        url_list = webpage_parser.retrieve_urls('http://www.baidu.com', '.*.html|htm')
+        self.assertTrue('http://www.baidu.com/gaoji/preferences.html' in url_list)
+        # print url_list
+
+        url_list = webpage_parser.retrieve_urls('http://www.baidu.com/gaoji/preferences.html', '.*.html|htm')
+        self.assertTrue(url_list == [])
+
+        url_list = webpage_parser.retrieve_urls('http://www.baidu.com/cache/sethelp/help.html', '.*.html|htm')
+        # print url_list
+        self.assertTrue('http://www.baidu.com/duty/index.html' in url_list)
+
+        url_list = webpage_parser.retrieve_urls('http://www.baidu.com/duty/index.html', '.*.html|htm')
+        print url_list
+        self.assertTrue('http://www.baidu.com/duty/yinsiquan.html' in url_list)

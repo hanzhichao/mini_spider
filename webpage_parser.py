@@ -36,6 +36,7 @@ def retrieve_urls(current_url, pattern):
     :return None if url is invalid
     """
     parser = UrlParser()
+
     try:
         parser.feed(urllib.urlopen(current_url).read())
         links = parser.get_links()
@@ -64,21 +65,23 @@ def retrieve_urls(current_url, pattern):
                 url = url.replace("&quot;", '"')
             if "&nbsp;" in url:
                 url = url.replace("&nbsp;", " ")
-    
+                
             if 'http' in url:
                 return url
             elif url[:2] == '//':
                 return 'http:' + url
-            elif 'javascript' in url:
-                if '=' in url:
-                    try:
-                        return current_url + '/' + url.split('=')[1][1:]
-                    except IndexError:
-                        log.logger.warning("url: %s format fail" % url)
-                else:
-                    return None
             else:
-                return current_url + '/' + url
+                base_url = '/'.join(current_url.split('/')[:-1])
+                if 'javascript' in url:
+                    if '=' in url:
+                        try:
+                            return base_url + '/' + url.split('=')[1][1:]
+                        except IndexError:
+                            log.logger.warning("url: %s format fail" % url)
+                    else:
+                        return None
+                else:
+                    return base_url + '/' + url
 
         url_list = map(format_url, url_list)
         
@@ -98,8 +101,7 @@ def save_page(url, output_dir):
     if output_dir[0] != '/':
         if output_dir[:2] == './':
             output_dir = output_dir[2:]
-        output_dir = os.path.join(os.path.dirname(__file__), output_dir[2:])
-        
+        output_dir = os.path.join(os.path.dirname(__file__), output_dir)
     log.logger.debug("url: " + url)
     uri = url.split('/')[3:]
     log.logger.debug("uri: " + ','.join(uri))
