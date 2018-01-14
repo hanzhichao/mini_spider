@@ -56,7 +56,7 @@ def retrieve_urls(current_url, pattern):
                 # log.logger.debug('match result: ' + "None")
             
         url_list = list(set(url_list))  # remove duplicated urls
-        log.logger.debug("url_list: " + ",".join(url_list))
+        # log.logger.debug("url_list: " + ",".join(url_list))
         
         # if urls in url_list not contains 'http' then add current_url before
         # if urls contains 'javascript' add current_url and the last part
@@ -101,7 +101,7 @@ def save_page(url, output_dir):
     if output_dir[0] != '/':
         if output_dir[:2] == './':
             output_dir = output_dir[2:]
-        output_dir = os.path.join(os.path.dirname(__file__), output_dir)
+        output_dir = os.path.join(os.path.dirname(__file__).decode("utf-8"), output_dir)
     log.logger.debug("url: " + url)
     uri = url.split('/')[3:]
     log.logger.debug("uri: " + ','.join(uri))

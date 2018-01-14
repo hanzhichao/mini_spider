@@ -2,24 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fea51ec-4cba-415c-8fab-10e01bcfcdab" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tput/www.baidu.com/appdownload/download.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tput/www.baidu.com/cache/sethelp/help.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tput/www.baidu.com/content/resource/app/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tput/www.baidu.com/duty/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tput/www.baidu.com/gaoji/preferences.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tput/www.baidu.com/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tput/www.baidu.com/more/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tput/www.baidu.com/pc/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tput/www.baidu.com/phoenix.zhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tput/www.baidu.com/search/jiqiao.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tput/www.baidu.com/search/jubao.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tput/www.sina.com/pc/index.html/pc/index-pc.html/pc/index-pc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tput/www.sina.com/pc/index.html/pc/index-pc.html/pc/skin_____.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tput/www.sina.com/pc/index.html/pc/skin_____.html/pc/index-pc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tput/www.sina.com/pc/index.html/pc/skin_____.html/pc/skin_____.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/spider_20180114.log" afterPath="$PROJECT_DIR$/log/spider_20180114.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_webpage_parser.py" afterPath="$PROJECT_DIR$/test/test_webpage_parser.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpage_parser.py" afterPath="$PROJECT_DIR$/webpage_parser.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/mini_spider$Nosetests_for_test_webpage_parser_TestSeedFileLoad_test_retrieve_urls.coverage" NAME="Nosetests for test_webpage_parser.TestSeedFileLoad.test_retrieve_urls Coverage Results" MODIFIED="1515917810328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/mini_spider$Nosetests_for_test_webpage_parser_TestSeedFileLoad_test_retrieve_urls.coverage" NAME="Nosetests for test_webpage_parser.TestSeedFileLoad.test_retrieve_urls Coverage Results" MODIFIED="1515918559852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/mini_spider$crawl_thread.coverage" NAME="crawl_thread Coverage Results" MODIFIED="1515823518026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mini_spider$Nosetests_for_test_webpage_parser_TestSeedFileLoad_test_save_html_with_dirs.coverage" NAME="Nosetests for test_webpage_parser.TestSeedFileLoad.test_save_html_with_dirs Coverage Results" MODIFIED="1515832332712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/mini_spider$webpage_parser.coverage" NAME="webpage_parser Coverage Results" MODIFIED="1515902719452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -66,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpage_parser.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="webpage_parser.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpage_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="90" column="19" lean-forward="true" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
+            <state relative-caret-position="107">
+              <caret line="100" column="28" lean-forward="true" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
               <folding>
                 <element signature="e#46#55#0" expanded="true" />
               </folding>
@@ -78,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_webpage_parser.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_webpage_parser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_webpage_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -147,8 +129,8 @@
         <option value="$PROJECT_DIR$/spider.conf" />
         <option value="$PROJECT_DIR$/seed/urls" />
         <option value="$PROJECT_DIR$/crawl_thread.py" />
-        <option value="$PROJECT_DIR$/webpage_parser.py" />
         <option value="$PROJECT_DIR$/test/test_webpage_parser.py" />
+        <option value="$PROJECT_DIR$/webpage_parser.py" />
       </list>
     </option>
   </component>
@@ -373,9 +355,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_for_test_webpage_parser_TestSeedFileLoad_test_retrieve_urls - 2018.01.14 at 16h 01m 13s.xml">
-      <configuration name="Nosetests for test_webpage_parser.TestSeedFileLoad.test_retrieve_urls" configurationId="tests" />
-    </history-entry>
     <history-entry file="Nosetests_for_test_webpage_parser_TestSeedFileLoad_test_retrieve_urls - 2018.01.14 at 16h 03m 18s.xml">
       <configuration name="Nosetests for test_webpage_parser.TestSeedFileLoad.test_retrieve_urls" configurationId="tests" />
     </history-entry>
@@ -401,6 +380,9 @@
       <configuration name="Nosetests for test_webpage_parser.TestSeedFileLoad.test_retrieve_urls" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetests_for_test_webpage_parser_TestSeedFileLoad_test_retrieve_urls - 2018.01.14 at 16h 16m 51s.xml">
+      <configuration name="Nosetests for test_webpage_parser.TestSeedFileLoad.test_retrieve_urls" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_test_webpage_parser_TestSeedFileLoad_test_retrieve_urls - 2018.01.14 at 16h 29m 21s.xml">
       <configuration name="Nosetests for test_webpage_parser.TestSeedFileLoad.test_retrieve_urls" configurationId="tests" />
     </history-entry>
   </component>
@@ -738,21 +720,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage_parser.py">
+    <entry file="file://$PROJECT_DIR$/test/test_webpage_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="90" column="19" lean-forward="true" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
-          <folding>
-            <element signature="e#46#55#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_webpage_parser.py">
+    <entry file="file://$PROJECT_DIR$/webpage_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="107">
+          <caret line="100" column="28" lean-forward="true" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
+          <folding>
+            <element signature="e#46#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
