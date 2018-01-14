@@ -95,6 +95,11 @@ def save_page(url, output_dir):
     :param output_dir: base output dir
     :return: None
     """
+    if output_dir[0] != '/':
+        if output_dir[:2] == './':
+            output_dir = output_dir[2:]
+        output_dir = os.path.join(os.path.dirname(__file__), output_dir[2:])
+        
     log.logger.debug("url: " + url)
     uri = url.split('/')[3:]
     log.logger.debug("uri: " + ','.join(uri))

@@ -16,6 +16,7 @@ visited_url_list = []
 url_queue = Queue.Queue(maxsize=-1)
 sub_url_queue = Queue.Queue(maxsize=-1)
 visited_url_list_lock = Lock()  # lock the visited_url_list while appending new url
+save_page_lock = Lock()
 
 
 def muti_crawl(thread_count, reg, crawl_interval, crawl_timeout, output_dir):
@@ -63,7 +64,9 @@ def crawl(reg, output_dir):
         urls = webpage_parser.retrieve_urls(current_url, reg)
         
         # save current_url as html page in output_dir
+        save_page_lock.acquire()
         webpage_parser.save_page(current_url, output_dir)
+        save_page_lock.release()
         
         # lock the visited_url_list while appending new url
         visited_url_list_lock.acquire()
