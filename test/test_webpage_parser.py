@@ -1,18 +1,16 @@
 #!/usr/bin/env python
+""" test webpage_parser using unittest"""
 # -*- coding: utf-8 -*-
 import unittest
 import webpage_parser
 
 
 class TestSeedFileLoad(unittest.TestCase):
-    def setUp(self):
-        pass
-    
-    def tearDown(self):
-        pass
+    """ subclass of unittest.TestCase """
 
     @staticmethod
     def format_url(current_url, url):
+        """ under testing method pick from webpage_parser.py """
         if "&quot;" in url:
             url = url.replace("&quot;", '"')
         if "&nbsp;" in url:
@@ -34,6 +32,7 @@ class TestSeedFileLoad(unittest.TestCase):
             return current_url + '/' + url
     
     def test_save_html(self):
+        """ test save urls to output file"""
         webpage_parser.save_page('pycm.baidu.com:8081/page1.html', './output')
         try:
             with open('../output/baidu.html', 'r') as f:
@@ -43,6 +42,7 @@ class TestSeedFileLoad(unittest.TestCase):
             self.fail('no html fail saved')
 
     def test_save_html_with_dirs(self):
+        """ test mkdirs and save html pages"""
         webpage_parser.save_page('pycm.baidu.com:8081/page1/page1_1.html', 'output')
         try:
             with open('../output/page1/page1_1.html', 'r') as f:
@@ -52,31 +52,39 @@ class TestSeedFileLoad(unittest.TestCase):
             self.fail('no html fail saved')
 
     def test_format_url(self):
-        self.assertEqual(self.format_url('http://www.baidu.com', '//www.baidu.com/cache/sethelp/help.html'),
-                         'http://www.baidu.com/cache/sethelp/help.html')
-        self.assertEqual(self.format_url('http://www.baidu.com', 'http://www.baidu.com/cache/sethelp/help.html'),
-                         'http://www.baidu.com/cache/sethelp/help.html')
-        self.assertEqual(self.format_url('http://www.baidu.com', 'https://www.baidu.com'),
-                         'https://www.baidu.com')
-        self.assertEqual(self.format_url('http://www.baidu.com', 'javascript;'),
-                         None)
-        self.assertEqual(self.format_url('http://www.baidu.com', 'javascript:location.href=&quot;page4.html'),
-                         'http://www.baidu.com/page4.html')
-        self.assertEqual(self.format_url('http://www.baidu.com', 'page4.html'),
-                         'http://www.baidu.com/page4.html')
+        """ test format url method"""
+        current_url = 'http://www.baidu.com'
+        
+        result = self.format_url(current_url, '//www.baidu.com/cache/sethelp/help.html')
+        self.assertEqual(result, 'http://www.baidu.com/cache/sethelp/help.html')
+
+        result = self.format_url(current_url, 'http://www.baidu.com/cache/sethelp/help.html')
+        self.assertEqual(result, 'http://www.baidu.com/cache/sethelp/help.html')
+
+        result = self.format_url(current_url, 'https://www.baidu.com')
+        self.assertEqual(result, 'https://www.baidu.com')
+
+        result = self.format_url(current_url, 'javascript;')
+        self.assertEqual(result, None)
+
+        result = self.format_url(current_url, 'javascript:location.href=&quot;page4.html')
+        self.assertEqual(result, 'http://www.baidu.com/page4.html')
+
+        result = self.format_url(current_url, 'page4.html')
+        self.assertEqual(result, 'http://www.baidu.com/page4.html')
         
     def test_retrieve_urls(self):
-        url_list = webpage_parser.retrieve_urls('http://www.baidu.com', '.*.html|htm')
-        self.assertTrue('http://www.baidu.com/gaoji/preferences.html' in url_list)
-        # print url_list
+        """ test retrieve_urls method """
+        reg = '.*.html|htm'
+        
+        result = webpage_parser.retrieve_urls('http://www.baidu.com', reg)
+        self.assertTrue('http://www.baidu.com/gaoji/preferences.html' in result)
 
-        url_list = webpage_parser.retrieve_urls('http://www.baidu.com/gaoji/preferences.html', '.*.html|htm')
-        self.assertTrue(url_list == [])
+        result = webpage_parser.retrieve_urls('http://www.baidu.com/gaoji/preferences.html', reg)
+        self.assertTrue(result == [])
 
-        url_list = webpage_parser.retrieve_urls('http://www.baidu.com/cache/sethelp/help.html', '.*.html|htm')
-        # print url_list
-        self.assertTrue('http://www.baidu.com/duty/index.html' in url_list)
+        result = webpage_parser.retrieve_urls('http://www.baidu.com/cache/sethelp/help.html', reg)
+        self.assertTrue('http://www.baidu.com/duty/index.html' in result)
 
-        url_list = webpage_parser.retrieve_urls('http://www.baidu.com/duty/index.html', '.*.html|htm')
-        print url_list
-        self.assertTrue('http://www.baidu.com/duty/yinsiquan.html' in url_list)
+        result = webpage_parser.retrieve_urls('http://www.baidu.com/duty/index.html', reg)
+        self.assertTrue('http://www.baidu.com/duty/yinsiquan.html' in result)

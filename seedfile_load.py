@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+""" read urls from seed file"""
 # -*- coding: utf-8 -*-
 
 
@@ -9,5 +10,6 @@ def get_urls(seed_file):
     """
     with open(seed_file, 'r') as f:
         # add 'http://' if url not contains 'http'
-        return map(lambda x: 'http://' + x[:-1] if 'http' not in x else x[:-1], f.readlines())
+        return map(lambda x: 'http://' + x[:-1] if 'http' not in x else x[:-1],
+                   f.readlines())
 

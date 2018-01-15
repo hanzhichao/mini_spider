@@ -1,8 +1,12 @@
 #!/usr/bin/env python
+"""
+multiple threads crawl the given urls using given regex pattern
+"""
 # -*- coding: utf-8 -*-
 import platform
 import time
-from threading import Thread, Lock
+from threading import Thread
+from threading import Lock
 import webpage_parser
 import log
 # handle the differences between python2 and python3

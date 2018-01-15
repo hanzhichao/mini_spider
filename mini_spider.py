@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+"""
+project main method, load config and seed, and crawl urls
+"""
 # -*- coding: utf-8 -*-
 import json
 import time
@@ -19,10 +22,12 @@ def main():
     if option_parser.options.conf:
         config = config_load.Config(option_parser.options.conf)
     else:
-        config = config_load.Config()
+        config = config_load.Config(os.path.join(os.path.dirname(__file__),
+                                                 'conf/spider.conf'))
     
     if option_parser.options.version:
-        project_info_file = os.path.join(os.path.dirname(__file__), ".project_info.json")
+        project_info_file = os.path.join(os.path.dirname(__file__),
+                                         ".project_info.json")
         with open(project_info_file, "r") as f:
             print(json.load(f)['version'])
         exit()
@@ -34,7 +39,9 @@ def main():
     crawl_timeout = float(config.get('crawl_timeout'))
     
     # logging start time
-    log.logger.debug("spider start at: " + time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())) + " ---")
+    log.logger.debug("spider start at: "
+                     + time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
+                     + " ---")
     start_time = time.time()
 
     # iterate base_urls from seed file
@@ -69,8 +76,11 @@ def main():
             current_depth += 1
     
     # logging end time and full duration
-    log.logger.debug("spider gracefully end at: " + time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())) +
-                     " Full Duration: " + str(time.time() - start_time) + 's' + " ---")
+    log.logger.debug("spider gracefully end at: "
+                     + time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
+                     + " Full Duration: "
+                     + str(time.time() - start_time)
+                     + "s ---")
 
 
 main()

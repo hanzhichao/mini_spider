@@ -1,29 +1,36 @@
 #!/usr/bin/env python
+""" retrieve urls from page and save page to output directory"""
 # -*- coding: utf-8 -*-
 import re
 import os
 import platform
-import HTMLParser
 import log
+
 # handle the difference between python2 and python3
 if (platform.python_version()) < '3':
     import urllib
+    import HTMLParser
 else:
     import urllib.request as urllib
+    import html.parser as HTMLParser
 
 
 class UrlParser(HTMLParser.HTMLParser):
+    """Costomized url parser class, subclass of HTMLParser.HTMLParser"""
     def __init__(self):
+        """ self.links use to return """
         self.links = []
         HTMLParser.HTMLParser.__init__(self)
     
     def handle_starttag(self, tag, attrs):
+        """ get all node start tag is <a>"""
         if tag == 'a':
             for name, value in attrs:
                 if name == 'href':
                     self.links.append(value)
     
     def get_links(self):
+        """return all links"""
         return self.links
 
 
@@ -61,6 +68,7 @@ def retrieve_urls(current_url, pattern):
         # if urls in url_list not contains 'http' then add current_url before
         # if urls contains 'javascript' add current_url and the last part
         def format_url(url):
+            """ format url if is not complete or contains special characters"""
             if "&quot;" in url:
                 url = url.replace("&quot;", '"')
             if "&nbsp;" in url:
@@ -101,7 +109,7 @@ def save_page(url, output_dir):
     if output_dir[0] != '/':
         if output_dir[:2] == './':
             output_dir = output_dir[2:]
-        output_dir = os.path.join(os.path.dirname(__file__).decode("utf-8"), output_dir)
+        output_dir = os.path.join(os.path.dirname(__file__), output_dir)
     log.logger.debug("url: " + url)
     uri = url.split('/')[3:]
     log.logger.debug("uri: " + ','.join(uri))

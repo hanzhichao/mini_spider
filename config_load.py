@@ -1,6 +1,10 @@
 #!/usr/bin/env python
+"""
+load config file
+default config file: ./conf/spider.conf
+default section: 'spider'
+"""
 # -*- coding: utf-8 -*-
-import os
 import platform
 
 # handle the differences between python2 and python3
@@ -8,14 +12,17 @@ if (platform.python_version()) < '3':
     import ConfigParser
     import codecs
 else:
-    from configparser import ConfigParser, RawConfigParser, NoOptionError, NoSectionError
+    from configparser import ConfigParser
+    from configparser import RawConfigParser
+    from configparser import NoOptionError
+    from configparser import NoSectionError
 
-DEFAULT_CONF = os.path.join(os.path.dirname(__file__), 'conf/spider.conf')
-DEFAULT_SECTION = 'spider'
 
-
-class Config:
-    def __init__(self, config_file_path=DEFAULT_CONF):
+class Config(Object):
+    """
+    Customized Config Class, to get option from config files
+    """
+    def __init__(self, config_file_path):
         try:
             if (platform.python_version()) < '3':
                 # python 2
@@ -31,6 +38,6 @@ class Config:
         except IOError:
             raise IOError
 
-    def get(self, option, section=DEFAULT_SECTION):
+    def get(self, option, section='spider'):
         """ get option from the config file"""
         return self.cf.get(section, option)
