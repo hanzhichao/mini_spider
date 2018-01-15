@@ -18,7 +18,7 @@ else:
     from configparser import NoSectionError
 
 
-class Config(Object):
+class Config(object):
     """
     Customized Config Class, to get option from config files
     """
