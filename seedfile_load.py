@@ -6,7 +6,7 @@
 def get_urls(seed_file):
     """
     get urls from seed file,a new blank line needed at the end of the file
-    @:param seed_file type:str seed_file path, read from the config file
+    @:param seed_file <type:str> seed_file path, read from the config file
     """
     with open(seed_file, 'r') as f:
         # add 'http://' if url not contains 'http'

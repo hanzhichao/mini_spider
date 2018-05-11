@@ -5,15 +5,12 @@ multiple threads crawl the given urls using given regex pattern
 # -*- coding: utf-8 -*-
 import platform
 import time
+import Queue
 from threading import Thread
 from threading import Lock
 import webpage_parser
 import log
-# handle the differences between python2 and python3
-if (platform.python_version()) < '3':
-    import Queue
-else:
-    import queue as Queue
+
 
 # store the urls which had been crawled and saved
 visited_url_list = []
@@ -26,11 +23,11 @@ save_page_lock = Lock()
 def muti_crawl(thread_count, reg, crawl_interval, crawl_timeout, output_dir):
     """
     run multiple threads to run crawl(reg, output_dir)
-    :param thread_count: type:int thread number read from config file
-    :param reg: regex pattern for retrieving urls
-    :param crawl_interval: threads waiting time
-    :param crawl_timeout: threads timeout time
-    :param output_dir: html page output dictionary
+    :param thread_count: <type:int> thread number read from config file
+    :param reg: <type:str> regex pattern for retrieving urls
+    :param crawl_interval: <type:str> threads waiting time
+    :param crawl_timeout: <type:str> threads timeout time
+    :param output_dir: <type:str> html page output dictionary
     :return: None
     """
     
@@ -56,8 +53,8 @@ def muti_crawl(thread_count, reg, crawl_interval, crawl_timeout, output_dir):
 def crawl(reg, output_dir):
     """
     get url form the working queue, retrieve new urls and put to another queue then save the html page to output_dir
-    :param reg: type:str retrieve url regex pattern
-    :param output_dir: type:str read from config file
+    :param reg: <type:str> retrieve url regex pattern
+    :param output_dir: <type:str> read from config file
     :return: None
     """
     while not url_queue.empty():

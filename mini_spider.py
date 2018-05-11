@@ -16,7 +16,7 @@ import crawl_thread
 def main():
     """
     main method
-    :return: None
+    :returns: None
     """
     # handle command options
     if option_parser.options.conf:
@@ -83,4 +83,5 @@ def main():
                      + "s ---")
 
 
-main()
+if __name__ == '__main__':
+    main()

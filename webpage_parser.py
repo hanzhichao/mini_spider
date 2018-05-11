@@ -5,14 +5,8 @@ import re
 import os
 import platform
 import log
-
-# handle the difference between python2 and python3
-if (platform.python_version()) < '3':
-    import urllib
-    import HTMLParser
-else:
-    import urllib.request as urllib
-    import html.parser as HTMLParser
+import urllib
+import HTMLParser
 
 
 class UrlParser(HTMLParser.HTMLParser):
@@ -34,69 +28,67 @@ class UrlParser(HTMLParser.HTMLParser):
         return self.links
 
 
+def _format_url(url):
+    """ 
+    format url if is not complete or contains special characters,
+    if urls in url_list not contains 'http' then add current_url before,
+    if urls contains 'javascript' add current_url and the last part
+
+    :@param url: <type: str> url retrieve from html links
+    """
+    if "&quot;" in url:
+        url = url.replace("&quot;", '"')
+    if "&nbsp;" in url:
+        url = url.replace("&nbsp;", " ")
+        
+    if 'http' in url:
+        return url
+    elif url[:2] == '//':
+        return 'http:' + url
+    else:
+        base_url = '/'.join(current_url.split('/')[:-1])
+        if 'javascript' in url:
+            if '=' in url:
+                try:
+                    return base_url + '/' + url.split('=')[1][1:]
+                except IndexError:
+                    log.logger.warning("url: %s format fail" % url)
+            else:
+                return None
+        else:
+            return base_url + '/' + url
+
+
 def retrieve_urls(current_url, pattern):
     """
     retrieve urls from url using regex pattern
-    @:param url type:str should contains 'http://'
-    @:param reg type:str regex pattern read from spider.conf
-    :return url_list(type:list) if current_url is valid
+    @:param url: <type:str> should contains 'http://'
+    @:param reg: <type:str> regex pattern read from spider.conf
+    :return url_list: <type:list> if current_url is valid
     :return None if url is invalid
     """
     parser = UrlParser()
 
     try:
         parser.feed(urllib.urlopen(current_url).read())
-        links = parser.get_links()
-        # log.logger.debug("links: " + ','.join(links))
-        reg_pattern = re.compile(pattern)
-        # log.logger.debug('reg pattern: ' + pattern)
-        url_list = []
-        for link in links:
-            # log.logger.debug('link: ' + link)
-            match = re.match(reg_pattern, link)
-            
-            if match:
-                # log.logger.debug('match result: ' + match.group())
-                url_list.append(match.group())
-            else:
-                pass
-                # log.logger.debug('match result: ' + "None")
-            
-        url_list = list(set(url_list))  # remove duplicated urls
-        # log.logger.debug("url_list: " + ",".join(url_list))
-        
-        # if urls in url_list not contains 'http' then add current_url before
-        # if urls contains 'javascript' add current_url and the last part
-        def format_url(url):
-            """ format url if is not complete or contains special characters"""
-            if "&quot;" in url:
-                url = url.replace("&quot;", '"')
-            if "&nbsp;" in url:
-                url = url.replace("&nbsp;", " ")
-                
-            if 'http' in url:
-                return url
-            elif url[:2] == '//':
-                return 'http:' + url
-            else:
-                base_url = '/'.join(current_url.split('/')[:-1])
-                if 'javascript' in url:
-                    if '=' in url:
-                        try:
-                            return base_url + '/' + url.split('=')[1][1:]
-                        except IndexError:
-                            log.logger.warning("url: %s format fail" % url)
-                    else:
-                        return None
-                else:
-                    return base_url + '/' + url
-
-        url_list = map(format_url, url_list)
-        
-        return url_list
     except IOError:
         log.logger.warning("current url: %s is invalid" % current_url)
         return None
+
+    links = parser.get_links()
+    reg_pattern = re.compile(pattern)
+
+    url_list = []
+    for link in links:
+        match = re.match(reg_pattern, link)   
+        if match:
+            url_list.append(match.group())
+     
+    url_list = list(set(url_list))  # remove duplicated urls  
+    # format urls
+    url_list = map(_format_url, url_list)
+    return url_list
+    
 
 
 def save_page(url, output_dir):
